@@ -22,7 +22,7 @@ public class TicTacToeGameMoveTest {
     private final char player = 'X';
 
     // https://github.com/junit-team/junit4/wiki/rules (JUnit interceptors)
-//    @Rule
+    @Rule
     public final TestName name = new TestName();
 
 //    @BeforeClass
@@ -35,50 +35,59 @@ public class TicTacToeGameMoveTest {
         // called once after all methods are executed
     }
 
-//    @Before
-    public void before() {
-        // called before each method execution
-        // init a move
+    @Before
+    public void setUpMethod() {
+        // called before each method execution 
+    	move = new TicTacToeGameMove(id, player, x, y);
     }
 
-//    @After
-    public void after() {
+    @After
+    public void cleanUpMethod() {
         // called after each method execution
+    	move =null;
     }
 
     // check id is set after instantiation
-    //@Test
+    @Test
     public void whenInstantiated_ThenIdIsSet() {
+    	assertEquals(id, move.getId());
 
     }
 
     // check x is set after instantiation
-    //@Test
+    @Test
     public void whenInstantiated_ThenXIsSet() {
+    	assertEquals(x, move.getX());
 
     }
 
     // check y is set after instantiation
-    //@Test
+    @Test
     public void whenInstantiated_ThenYIsSet() {
+    	assertEquals(y, move.getY());
 
     }
 
     // check player is set after instantiation
-    //@Test
+    @Test
     public void whenInstantiated_ThenPlayerIsSet() {
+    	assertEquals(player, move.getPlayer());
 
     }
 
     // check allowedChars are O and X after instantiation
-    //@Test
+    @Test
     public void whenInstantiated_ThenAllowedCharsAreOandX() {
+    	List<Character> expectedCharacters = Arrays.asList('X','O');
+    	assertTrue(move.getAllowedChars().containsAll(expectedCharacters));
+    	assertEquals(2, move.getAllowedChars().size());
 
     }
 
     // check Rule TestName.getMethodName
-    //@Test
+    @Test
     public void whenGetMethodNameOfTestNameRuleInvoked_ThenReturnNameOfThisTest() {
+    	assertEquals("whenGetMethodNameOfTestNameRuleInvoked_ThenReturnNameOfThisTest", name.getMethodName());
 
     }
 

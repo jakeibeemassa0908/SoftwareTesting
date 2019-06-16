@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34" started-at="2019-06-16T02:38:03Z" finished-at="2019-06-16T02:38:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34" started-at="2019-06-16T02:38:03Z" finished-at="2019-06-16T02:38:03Z">
+      <class name="com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="before" is-config="true" duration-ms="5" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="whenInstantiated_ThenAllowedCharsAreOandX()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="whenInstantiated_ThenAllowedCharsAreOandX" duration-ms="5" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenInstantiated_ThenAllowedCharsAreOandX -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="after" is-config="true" duration-ms="1" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="before" is-config="true" duration-ms="0" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="whenInstantiated_ThenIdIsSet()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="whenInstantiated_ThenIdIsSet" duration-ms="1" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenInstantiated_ThenIdIsSet -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="after" is-config="true" duration-ms="0" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="before" is-config="true" duration-ms="1" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="whenInstantiated_ThenPlayerIsSet()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="whenInstantiated_ThenPlayerIsSet" duration-ms="1" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenInstantiated_ThenPlayerIsSet -->
+        <test-method status="PASS" signature="whenInstantiated_ThenXIsSet()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="whenInstantiated_ThenXIsSet" duration-ms="1" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenInstantiated_ThenXIsSet -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="before" is-config="true" duration-ms="0" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="after" is-config="true" duration-ms="0" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="before" is-config="true" duration-ms="0" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="after" is-config="true" duration-ms="0" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="whenInstantiated_ThenYIsSet()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="whenInstantiated_ThenYIsSet" duration-ms="0" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenInstantiated_ThenYIsSet -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest@4439f31e]" name="after" is-config="true" duration-ms="0" started-at="2019-06-15T19:38:03Z" finished-at="2019-06-15T19:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.sybetech.business.frameworks.TicTacToeGameMoveTestngTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -12,17 +12,29 @@ public class TicTacToeGameState {
 
     public TicTacToeGameState() {
         // use new Jongo (MongoClient().getDB).getCollection to initialize mongoCollection
+    	mongoCollection = new Jongo(new MongoClient().getDB(DB_NAME)).getCollection(COLLECTION_NAME);
     }
 
     public boolean save(TicTacToeGameMove move) {
-        return false;
+    	try {
+			getMongoCollection().save(move);
+		} catch (Exception e) {
+			return false;
+		}
+        return true;
     }
 
     public boolean clear() {
-        return false;
+    	try {
+			getMongoCollection().drop();
+		} catch (Exception e) {
+			return false;
+		}
+        return true;
     }
 
     public TicTacToeGameMove findById(int id) {
+    	mongoCollection.findOne("{_id:#}",id).as(TicTacToeGameMove.class);
         return null;
     }
 
